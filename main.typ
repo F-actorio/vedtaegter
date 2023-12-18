@@ -1,7 +1,5 @@
 #import "template.typ": *
 
-// Take a look at the file `template.typ` in the file panel
-// to customize this template and discover how it works.
 #show: project.with(
   title: "F-actorio Vedtægter",
   authors: (
@@ -10,18 +8,10 @@
   ),
 )
 
-// We generated the example code below so you can see how
-// your document will look. Go ahead and replace it with
-// your own content!
+#set enum(numbering: "§1", tight: false)
 
-= Introduction
-#lorem(60)
+= Formål
 
-== In this paper
-#lorem(20)
++ Foreningens navn er F-actorio, udtales ...
++ Foreningens sprog er først og fremmest dansk, dernæst engelsk.
 
-=== Contributions
-#lorem(40)
-
-= Related Work
-#lorem(500)
